@@ -110,5 +110,5 @@ async function getFudgeFactor() {
 var input = document.getElementById('test')
 
 input.addEventListener('keyup', (event) => {
-  alert(event.target.value)
+  document.body.style = 'background-color: black'
 })
