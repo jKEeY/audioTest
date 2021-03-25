@@ -105,3 +105,10 @@ async function getFudgeFactor() {
   document.body.appendChild(div)
 
 })()
+
+
+var input = document.getElementById('test')
+
+input.addEventListener('keyup', (event) => {
+  alert(event.target.value)
+})
